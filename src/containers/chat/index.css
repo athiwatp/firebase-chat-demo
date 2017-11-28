@@ -1,0 +1,55 @@
+.messages-container {
+    height: 90%;
+    width: 70%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px 0 rgba(50,50,93,.1);
+}
+
+.message-list {
+    height: 85%;
+    max-height: 85%;
+    /* background-color: #ddd; */
+    overflow: hidden;
+}
+
+.message-actions {
+    border-top: 3px solid #eee;
+    height: 15%;
+    width: 100%;
+
+    display: flex;
+}
+
+.message-input-container {
+    width: 80%;
+    height: 100%;
+    padding: 15px 10px;
+}
+
+.message-input {
+    height: 80%;
+    width: 100%;
+    border: 0;
+    resize: none;
+    outline: none;
+    font-size: 1em;
+}
+
+.message-button-container {
+    width: 20%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message-button {
+    padding: 20px 30px;
+    background-color: #3ecf8e;
+    border: 0;
+    border-radius: 4px;
+    font-size: 1em;
+    color: white;
+}
